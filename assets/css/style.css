@@ -6,12 +6,16 @@
     font-family: Verdana;
     color: #333;
   }
+
+  html{
+    height: 100vh;
+  }
   
   body, html {
     background-image: url("../img/fundo-floresta.jpg");
     background-position: center;
     background-size: cover;
-    height: 100%;
+    background-repeat: no-repeat;
   }
   
   button {
@@ -150,7 +154,7 @@
   }
   
   .done {
-    background: #395169;
+    background: #3a0733;
   }
   
   .done h3 {
